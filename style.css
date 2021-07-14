@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: sans-serif;
+}
+.one img{
+    width: 51px;
+    margin-top: 48px;
+    margin-left: 58px;
+}
+.one h1{
+    color: white;
+    font-size: 55px;
+    padding: 60px;
+}
+.one h3{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+.button1 button{
+    color: white;
+    font-weight: bolder;
+    background-color: #219ce4;
+    font-size: 17px;
+    width: 248px;
+    height: 58px;
+    margin-left: 47px;
+    border-radius: 26px;
+    border: none;
+}
+.button2 button{
+    color:  #219ce4;
+    font-weight: bolder;
+    font-size: 17px;
+    border-color: #219ce4;
+    margin-left: 47px;
+    width: 248px;
+    height: 58px;
+    border-radius: 26px;
+
+}
+.button1 {
+    padding: 22px;
+    margin-top: 21px;
+}
+.button2 {
+    margin-top: -29px;
+    padding: 22px;
+}
+.two img{ 
+    width: 100%;
+    margin-top: 28px;
+}
+.three p{
+    
+    text-align: center;
+    margin-top: 21px;
+    line-height: 25px;
+    color: gray;
+}
+@media screen and (min-width:780px)  {
+    .one {
+        float: right;
+        position: relative;
+        left: -120px;
+    }
+    .two img{
+        position: relative;
+        width: 50%;
+        top: -27px;
+        height: 643px;
+    }
+    .three{
+        margin-top: -28px;
+    }
+    .three br{
+        display: none;
+    }
+    .one h1{
+        font-size: 70px;
+    }
+    .one h3{
+        font-size: 40px;
+    }
+    .button1 button {
+        width: 400px;
+        height: 52px;
+        font-weight: bolder;
+    }
+    .button2 button {
+        width: 400px;
+        height: 52px;
+        font-weight: bolder;
+    }
+}
